@@ -23,9 +23,6 @@
         box-sizing: border-box;
         margin: 0 auto;
     }
-    section{
-        padding: 0 120px;
-    }
     p{
         color: #2F2F2F;
         text-align: center;
@@ -33,6 +30,9 @@
         font-weight: 400;
         line-height: 26px; /* 144.444% */
         letter-spacing: 0.48px;
+    }
+    ::-webkit-scrollbar {
+        display: none;
     }
 /* All */
     /* Header */
